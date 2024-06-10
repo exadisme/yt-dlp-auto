@@ -75,7 +75,7 @@ OnUnitActiveSec=2h
 Unit=youtube_download.service
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=timers.target
 ```
 
 then you can run
